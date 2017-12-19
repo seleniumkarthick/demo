@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [sample]" parallel="tests">
+  <parameter name="brows" value="firefox"/>
+  <test name="sample test2(failed)" parallel="tests">
+    <parameter name="brows" value="firefox"/>
+    <classes>
+      <class name="com.product.test.SearchArea">
+        <methods>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="searchProduct"/>
+        </methods>
+      </class> <!-- com.product.test.SearchArea -->
+    </classes>
+  </test> <!-- sample test2(failed) -->
+</suite> <!-- Failed suite [sample] -->
