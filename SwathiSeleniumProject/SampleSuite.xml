@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="sample" parallel="tests" thread-count="2">
+    <parameter name="brows" value="chrome"></parameter>
+    
+    <test name="sample test1">
+        <parameter name="brows" value="chrome"></parameter>
+        <classes>
+            <class name="com.product.test.SearchArea"></class>
+        </classes>
+    </test>
+    
+    <test name="sample test2">
+        <parameter name="brows" value="chrome"></parameter>
+        <classes>
+            <class name="com.product.test.SearchArea"></class>
+        </classes>
+    </test>
+    
+    
+</suite>
